@@ -1,0 +1,1892 @@
+{
+  "users": [
+    {
+      "id": "u1",
+      "name": "Dr. Sarah Benali",
+      "email": "doctor@dentcare.com",
+      "password": "doctor123",
+      "role": "admin",
+      "specialty": "General Dentistry & Orthodontics",
+      "phone": "+212 600 111 222",
+      "avatar": null,
+      "language": "en"
+    },
+    {
+      "id": "u2",
+      "name": "Amina El Idrissi",
+      "email": "secretary@dentcare.com",
+      "password": "secretary123",
+      "role": "secretary",
+      "specialty": null,
+      "phone": "+212 600 333 444",
+      "avatar": null,
+      "language": "fr"
+    },
+    {
+      "id": "u3",
+      "name": "Dr. Karim Haddad",
+      "email": "karim@dentcare.com",
+      "password": "doctor123",
+      "role": "admin",
+      "specialty": "Oral Surgery & Implantology",
+      "phone": "+212 600 555 666",
+      "avatar": null,
+      "language": "fr"
+    }
+  ],
+  "settings": {
+    "cabinet": {
+      "name": "DentCare Dental Cabinet",
+      "address": "25 Boulevard Zerktouni, Casablanca, Morocco",
+      "phone": "+212 522 000 000",
+      "email": "contact@dentcare.com",
+      "logo": null,
+      "currency": "MAD"
+    },
+    "workingHours": {
+      "monday": {
+        "open": true,
+        "start": "09:00",
+        "end": "17:30",
+        "breakStart": "12:30",
+        "breakEnd": "14:00"
+      },
+      "tuesday": {
+        "open": true,
+        "start": "09:00",
+        "end": "17:30",
+        "breakStart": "12:30",
+        "breakEnd": "14:00"
+      },
+      "wednesday": {
+        "open": true,
+        "start": "09:00",
+        "end": "17:30",
+        "breakStart": "12:30",
+        "breakEnd": "14:00"
+      },
+      "thursday": {
+        "open": true,
+        "start": "09:00",
+        "end": "17:30",
+        "breakStart": "12:30",
+        "breakEnd": "14:00"
+      },
+      "friday": {
+        "open": true,
+        "start": "09:00",
+        "end": "17:30",
+        "breakStart": "12:30",
+        "breakEnd": "14:00"
+      },
+      "saturday": {
+        "open": true,
+        "start": "09:00",
+        "end": "13:00",
+        "breakStart": null,
+        "breakEnd": null
+      },
+      "sunday": {
+        "open": false,
+        "start": null,
+        "end": null,
+        "breakStart": null,
+        "breakEnd": null
+      }
+    },
+    "holidays": [
+      {
+        "date": "2026-11-06",
+        "name": "Green March Day"
+      },
+      {
+        "date": "2026-11-18",
+        "name": "Independence Day"
+      },
+      {
+        "date": "2026-12-25",
+        "name": "Cabinet closed"
+      }
+    ],
+    "slotDuration": 15,
+    "reminderHoursBefore": 24,
+    "defaultLanguage": "en",
+    "theme": "light"
+  },
+  "treatments": [
+    {
+      "id": "t1",
+      "name": "Consultation / Check-up",
+      "defaultDuration": 30,
+      "price": 300,
+      "color": "#3b82f6",
+      "category": "Diagnostic",
+      "active": true
+    },
+    {
+      "id": "t2",
+      "name": "Teeth Cleaning (Scaling)",
+      "defaultDuration": 45,
+      "price": 500,
+      "color": "#14b8a6",
+      "category": "Preventive",
+      "active": true
+    },
+    {
+      "id": "t3",
+      "name": "Dental Filling",
+      "defaultDuration": 45,
+      "price": 600,
+      "color": "#f59e0b",
+      "category": "Restorative",
+      "active": true
+    },
+    {
+      "id": "t4",
+      "name": "Tooth Extraction",
+      "defaultDuration": 30,
+      "price": 700,
+      "color": "#ef4444",
+      "category": "Surgery",
+      "active": true
+    },
+    {
+      "id": "t5",
+      "name": "Root Canal Treatment",
+      "defaultDuration": 90,
+      "price": 1800,
+      "color": "#8b5cf6",
+      "category": "Endodontics",
+      "active": true
+    },
+    {
+      "id": "t6",
+      "name": "Teeth Whitening",
+      "defaultDuration": 60,
+      "price": 1500,
+      "color": "#06b6d4",
+      "category": "Cosmetic",
+      "active": true
+    },
+    {
+      "id": "t7",
+      "name": "Orthodontic Adjustment",
+      "defaultDuration": 30,
+      "price": 400,
+      "color": "#ec4899",
+      "category": "Orthodontics",
+      "active": true
+    },
+    {
+      "id": "t8",
+      "name": "Dental Implant",
+      "defaultDuration": 120,
+      "price": 6000,
+      "color": "#64748b",
+      "category": "Surgery",
+      "active": true
+    },
+    {
+      "id": "t9",
+      "name": "Crown Placement",
+      "defaultDuration": 60,
+      "price": 2500,
+      "color": "#f97316",
+      "category": "Restorative",
+      "active": true
+    },
+    {
+      "id": "t10",
+      "name": "X-Ray / Panoramic",
+      "defaultDuration": 15,
+      "price": 200,
+      "color": "#22c55e",
+      "category": "Diagnostic",
+      "active": true
+    }
+  ],
+  "patients": [
+    {
+      "id": "p1",
+      "firstName": "Youssef",
+      "lastName": "Alaoui",
+      "gender": "M",
+      "dateOfBirth": "1985-03-12",
+      "phone": "+212 691 214 125",
+      "email": "youssef.alaoui@example.com",
+      "address": "95 Rue des Fleurs, Rabat",
+      "allergies": [
+        "Penicillin"
+      ],
+      "medicalHistory": null,
+      "insurance": {
+        "provider": "CNSS",
+        "policyNumber": "CN-334053"
+      },
+      "emergencyContact": {
+        "name": "Leila Alaoui",
+        "phone": "+212 623 792 858"
+      },
+      "notes": "",
+      "documents": [],
+      "odontogram": {
+        "16": [
+          {
+            "treatment": "Dental Filling",
+            "date": "2026-09-30",
+            "status": "done"
+          }
+        ],
+        "36": [
+          {
+            "treatment": "Root Canal Treatment",
+            "date": "2026-10-02",
+            "status": "done"
+          }
+        ]
+      },
+      "createdAt": "2026-09-12T09:00:00Z"
+    },
+    {
+      "id": "p2",
+      "firstName": "Fatima",
+      "lastName": "Zahra Bennani",
+      "gender": "F",
+      "dateOfBirth": "1992-07-25",
+      "phone": "+212 685 532 132",
+      "email": "fatima.bennani@example.com",
+      "address": "4 Rue Hassan II, Rabat",
+      "allergies": [],
+      "medicalHistory": "Hypertension",
+      "insurance": {
+        "provider": "CNOPS",
+        "policyNumber": "CP-343962"
+      },
+      "emergencyContact": {
+        "name": "Ahmed Bennani",
+        "phone": "+212 681 303 833"
+      },
+      "notes": "",
+      "documents": [],
+      "odontogram": {},
+      "createdAt": "2026-09-23T09:00:00Z"
+    },
+    {
+      "id": "p3",
+      "firstName": "Omar",
+      "lastName": "Tazi",
+      "gender": "M",
+      "dateOfBirth": "1978-11-02",
+      "phone": "+212 638 559 703",
+      "email": "omar.tazi@example.com",
+      "address": "36 Rue Hassan II, Rabat",
+      "allergies": [
+        "Latex"
+      ],
+      "medicalHistory": "Diabetes type 2",
+      "insurance": {
+        "provider": "AXA",
+        "policyNumber": "AX-832052"
+      },
+      "emergencyContact": {
+        "name": "Samira Tazi",
+        "phone": "+212 653 384 259"
+      },
+      "notes": "",
+      "documents": [],
+      "odontogram": {
+        "18": [
+          {
+            "treatment": "Tooth Extraction",
+            "date": "2026-08-12",
+            "status": "done"
+          }
+        ],
+        "46": [
+          {
+            "treatment": "Crown Placement",
+            "date": "2026-10-20",
+            "status": "planned"
+          }
+        ]
+      },
+      "createdAt": "2026-04-20T09:00:00Z"
+    },
+    {
+      "id": "p4",
+      "firstName": "Salma",
+      "lastName": "Chraibi",
+      "gender": "F",
+      "dateOfBirth": "2001-01-18",
+      "phone": "+212 623 194 489",
+      "email": "salma.chraibi@example.com",
+      "address": "13 Rue des Fleurs, Marrakech",
+      "allergies": [],
+      "medicalHistory": "Asthma",
+      "insurance": {
+        "provider": "RMA",
+        "policyNumber": "RM-733052"
+      },
+      "emergencyContact": {
+        "name": "Rachid Chraibi",
+        "phone": "+212 615 847 570"
+      },
+      "notes": "",
+      "documents": [],
+      "odontogram": {},
+      "createdAt": "2026-09-13T09:00:00Z"
+    },
+    {
+      "id": "p5",
+      "firstName": "Mehdi",
+      "lastName": "Berrada",
+      "gender": "M",
+      "dateOfBirth": "1969-05-30",
+      "phone": "+212 658 180 665",
+      "email": "mehdi.berrada@example.com",
+      "address": "38 Rue Atlas, Tangier",
+      "allergies": [
+        "Aspirin"
+      ],
+      "medicalHistory": null,
+      "insurance": {
+        "provider": "Saham",
+        "policyNumber": "SH-479201"
+      },
+      "emergencyContact": {
+        "name": "Leila Berrada",
+        "phone": "+212 618 146 777"
+      },
+      "notes": "",
+      "documents": [],
+      "odontogram": {
+        "24": [
+          {
+            "treatment": "Dental Implant",
+            "date": "2026-07-05",
+            "status": "done"
+          }
+        ]
+      },
+      "createdAt": "2026-04-19T09:00:00Z"
+    },
+    {
+      "id": "p6",
+      "firstName": "Nadia",
+      "lastName": "Lahlou",
+      "gender": "F",
+      "dateOfBirth": "1988-09-09",
+      "phone": "+212 620 975 338",
+      "email": "nadia.lahlou@example.com",
+      "address": "111 Rue Hassan II, Fes",
+      "allergies": [],
+      "medicalHistory": "Pregnancy (2nd trimester)",
+      "insurance": null,
+      "emergencyContact": {
+        "name": "Rachid Lahlou",
+        "phone": "+212 668 750 954"
+      },
+      "notes": "",
+      "documents": [],
+      "odontogram": {},
+      "createdAt": "2026-06-15T09:00:00Z"
+    },
+    {
+      "id": "p7",
+      "firstName": "Hamza",
+      "lastName": "Fassi",
+      "gender": "M",
+      "dateOfBirth": "1995-12-21",
+      "phone": "+212 657 463 314",
+      "email": "hamza.fassi@example.com",
+      "address": "86 Rue des Fleurs, Casablanca",
+      "allergies": [],
+      "medicalHistory": null,
+      "insurance": {
+        "provider": "CNSS",
+        "policyNumber": "CN-738720"
+      },
+      "emergencyContact": {
+        "name": "Leila Fassi",
+        "phone": "+212 678 846 350"
+      },
+      "notes": "",
+      "documents": [],
+      "odontogram": {},
+      "createdAt": "2026-03-24T09:00:00Z"
+    },
+    {
+      "id": "p8",
+      "firstName": "Khadija",
+      "lastName": "Amrani",
+      "gender": "F",
+      "dateOfBirth": "1983-04-14",
+      "phone": "+212 658 376 755",
+      "email": "khadija.amrani@example.com",
+      "address": "89 Rue Ibn Sina, Rabat",
+      "allergies": [
+        "Ibuprofen"
+      ],
+      "medicalHistory": "Anemia",
+      "insurance": {
+        "provider": "CNOPS",
+        "policyNumber": "CP-817870"
+      },
+      "emergencyContact": {
+        "name": "Rachid Amrani",
+        "phone": "+212 617 334 941"
+      },
+      "notes": "",
+      "documents": [],
+      "odontogram": {},
+      "createdAt": "2026-01-20T09:00:00Z"
+    },
+    {
+      "id": "p9",
+      "firstName": "Anas",
+      "lastName": "Kettani",
+      "gender": "M",
+      "dateOfBirth": "2008-06-05",
+      "phone": "+212 661 374 167",
+      "email": "anas.kettani@example.com",
+      "address": "28 Rue Ibn Sina, Marrakech",
+      "allergies": [],
+      "medicalHistory": null,
+      "insurance": {
+        "provider": "AXA",
+        "policyNumber": "AX-322955"
+      },
+      "emergencyContact": {
+        "name": "Samira Kettani",
+        "phone": "+212 660 758 569"
+      },
+      "notes": "",
+      "documents": [],
+      "odontogram": {},
+      "createdAt": "2026-03-18T09:00:00Z"
+    },
+    {
+      "id": "p10",
+      "firstName": "Imane",
+      "lastName": "Sebti",
+      "gender": "F",
+      "dateOfBirth": "1975-02-27",
+      "phone": "+212 627 352 862",
+      "email": "imane.sebti@example.com",
+      "address": "72 Rue Ibn Sina, Marrakech",
+      "allergies": [],
+      "medicalHistory": "Osteoporosis",
+      "insurance": {
+        "provider": "RMA",
+        "policyNumber": "RM-883300"
+      },
+      "emergencyContact": {
+        "name": "Samira Sebti",
+        "phone": "+212 684 508 470"
+      },
+      "notes": "",
+      "documents": [],
+      "odontogram": {},
+      "createdAt": "2026-04-14T09:00:00Z"
+    },
+    {
+      "id": "p11",
+      "firstName": "Reda",
+      "lastName": "Guessous",
+      "gender": "M",
+      "dateOfBirth": "1990-08-16",
+      "phone": "+212 675 605 193",
+      "email": "reda.guessous@example.com",
+      "address": "97 Rue Hassan II, Casablanca",
+      "allergies": [
+        "Local anesthetic (lidocaine)"
+      ],
+      "medicalHistory": null,
+      "insurance": {
+        "provider": "Saham",
+        "policyNumber": "SH-260265"
+      },
+      "emergencyContact": {
+        "name": "Leila Guessous",
+        "phone": "+212 697 532 710"
+      },
+      "notes": "",
+      "documents": [],
+      "odontogram": {},
+      "createdAt": "2026-02-22T09:00:00Z"
+    },
+    {
+      "id": "p12",
+      "firstName": "Sara",
+      "lastName": "Mansouri",
+      "gender": "F",
+      "dateOfBirth": "1998-10-03",
+      "phone": "+212 658 710 579",
+      "email": "sara.mansouri@example.com",
+      "address": "68 Rue des Fleurs, Tangier",
+      "allergies": [],
+      "medicalHistory": null,
+      "insurance": null,
+      "emergencyContact": {
+        "name": "Ahmed Mansouri",
+        "phone": "+212 697 838 217"
+      },
+      "notes": "",
+      "documents": [],
+      "odontogram": {},
+      "createdAt": "2026-09-18T09:00:00Z"
+    },
+    {
+      "id": "p13",
+      "firstName": "Adil",
+      "lastName": "Benjelloun",
+      "gender": "M",
+      "dateOfBirth": "1963-01-11",
+      "phone": "+212 692 448 214",
+      "email": "adil.benjelloun@example.com",
+      "address": "38 Rue Al Massira, Rabat",
+      "allergies": [
+        "Penicillin"
+      ],
+      "medicalHistory": "Heart condition (pacemaker)",
+      "insurance": {
+        "provider": "CNSS",
+        "policyNumber": "CN-575763"
+      },
+      "emergencyContact": {
+        "name": "Ahmed Benjelloun",
+        "phone": "+212 643 612 880"
+      },
+      "notes": "",
+      "documents": [],
+      "odontogram": {},
+      "createdAt": "2026-03-26T09:00:00Z"
+    },
+    {
+      "id": "p14",
+      "firstName": "Lina",
+      "lastName": "Skalli",
+      "gender": "F",
+      "dateOfBirth": "2012-03-22",
+      "phone": "+212 623 991 740",
+      "email": "lina.skalli@example.com",
+      "address": "39 Rue Atlas, Tangier",
+      "allergies": [],
+      "medicalHistory": null,
+      "insurance": {
+        "provider": "CNOPS",
+        "policyNumber": "CP-738551"
+      },
+      "emergencyContact": {
+        "name": "Leila Skalli",
+        "phone": "+212 629 482 880"
+      },
+      "notes": "",
+      "documents": [],
+      "odontogram": {},
+      "createdAt": "2026-03-27T09:00:00Z"
+    },
+    {
+      "id": "p15",
+      "firstName": "Yassine",
+      "lastName": "Naciri",
+      "gender": "M",
+      "dateOfBirth": "1987-07-07",
+      "phone": "+212 677 100 713",
+      "email": "yassine.naciri@example.com",
+      "address": "42 Rue Al Massira, Casablanca",
+      "allergies": [],
+      "medicalHistory": null,
+      "insurance": {
+        "provider": "AXA",
+        "policyNumber": "AX-217301"
+      },
+      "emergencyContact": {
+        "name": "Rachid Naciri",
+        "phone": "+212 649 345 159"
+      },
+      "notes": "",
+      "documents": [],
+      "odontogram": {},
+      "createdAt": "2026-04-28T09:00:00Z"
+    },
+    {
+      "id": "p16",
+      "firstName": "Houda",
+      "lastName": "Daoudi",
+      "gender": "F",
+      "dateOfBirth": "1994-11-29",
+      "phone": "+212 620 187 849",
+      "email": "houda.daoudi@example.com",
+      "address": "63 Rue Hassan II, Tangier",
+      "allergies": [],
+      "medicalHistory": null,
+      "insurance": {
+        "provider": "RMA",
+        "policyNumber": "RM-903035"
+      },
+      "emergencyContact": {
+        "name": "Leila Daoudi",
+        "phone": "+212 626 775 586"
+      },
+      "notes": "",
+      "documents": [],
+      "odontogram": {},
+      "createdAt": "2026-09-15T09:00:00Z"
+    },
+    {
+      "id": "p17",
+      "firstName": "Karim",
+      "lastName": "Zniber",
+      "gender": "M",
+      "dateOfBirth": "1972-06-19",
+      "phone": "+212 643 640 993",
+      "email": "karim.zniber@example.com",
+      "address": "78 Rue Al Massira, Rabat",
+      "allergies": [
+        "Sulfa drugs"
+      ],
+      "medicalHistory": "Hypertension",
+      "insurance": {
+        "provider": "Saham",
+        "policyNumber": "SH-665492"
+      },
+      "emergencyContact": {
+        "name": "Leila Zniber",
+        "phone": "+212 649 508 787"
+      },
+      "notes": "",
+      "documents": [],
+      "odontogram": {},
+      "createdAt": "2026-06-24T09:00:00Z"
+    },
+    {
+      "id": "p18",
+      "firstName": "Meryem",
+      "lastName": "Ouazzani",
+      "gender": "F",
+      "dateOfBirth": "1980-12-08",
+      "phone": "+212 676 562 223",
+      "email": "meryem.ouazzani@example.com",
+      "address": "32 Rue Mohammed V, Casablanca",
+      "allergies": [],
+      "medicalHistory": null,
+      "insurance": null,
+      "emergencyContact": {
+        "name": "Rachid Ouazzani",
+        "phone": "+212 612 702 667"
+      },
+      "notes": "",
+      "documents": [],
+      "odontogram": {},
+      "createdAt": "2026-04-28T09:00:00Z"
+    },
+    {
+      "id": "p19",
+      "firstName": "Bilal",
+      "lastName": "Hajji",
+      "gender": "M",
+      "dateOfBirth": "2003-05-15",
+      "phone": "+212 638 107 172",
+      "email": "bilal.hajji@example.com",
+      "address": "91 Rue Atlas, Casablanca",
+      "allergies": [],
+      "medicalHistory": null,
+      "insurance": {
+        "provider": "CNSS",
+        "policyNumber": "CN-340062"
+      },
+      "emergencyContact": {
+        "name": "Ahmed Hajji",
+        "phone": "+212 614 980 438"
+      },
+      "notes": "",
+      "documents": [],
+      "odontogram": {},
+      "createdAt": "2026-02-26T09:00:00Z"
+    },
+    {
+      "id": "p20",
+      "firstName": "Zineb",
+      "lastName": "Slaoui",
+      "gender": "F",
+      "dateOfBirth": "1991-09-24",
+      "phone": "+212 640 385 785",
+      "email": "zineb.slaoui@example.com",
+      "address": "63 Rue Mohammed V, Tangier",
+      "allergies": [],
+      "medicalHistory": null,
+      "insurance": {
+        "provider": "CNOPS",
+        "policyNumber": "CP-238739"
+      },
+      "emergencyContact": {
+        "name": "Samira Slaoui",
+        "phone": "+212 641 903 584"
+      },
+      "notes": "",
+      "documents": [],
+      "odontogram": {},
+      "createdAt": "2026-07-16T09:00:00Z"
+    }
+  ],
+  "appointments": [
+    {
+      "id": "a14",
+      "patientId": "p18",
+      "doctorId": "u1",
+      "treatmentId": "t2",
+      "date": "2026-09-28",
+      "startTime": "11:15",
+      "endTime": "12:00",
+      "duration": 45,
+      "status": "Completed",
+      "toothNumber": null,
+      "notes": "First visit",
+      "createdBy": "u2",
+      "createdAt": "2026-09-17T10:00:00Z"
+    },
+    {
+      "id": "a13",
+      "patientId": "p9",
+      "doctorId": "u1",
+      "treatmentId": "t6",
+      "date": "2026-09-29",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "duration": 60,
+      "status": "Completed",
+      "toothNumber": null,
+      "notes": "Patient anxious – take it slowly",
+      "createdBy": "u2",
+      "createdAt": "2026-09-19T10:00:00Z"
+    },
+    {
+      "id": "a21",
+      "patientId": "p12",
+      "doctorId": "u1",
+      "treatmentId": "t10",
+      "date": "2026-09-29",
+      "startTime": "15:45",
+      "endTime": "16:00",
+      "duration": 15,
+      "status": "Completed",
+      "toothNumber": null,
+      "notes": "First visit",
+      "createdBy": "u2",
+      "createdAt": "2026-09-21T10:00:00Z"
+    },
+    {
+      "id": "a22",
+      "patientId": "p9",
+      "doctorId": "u1",
+      "treatmentId": "t10",
+      "date": "2026-10-01",
+      "startTime": "12:00",
+      "endTime": "12:15",
+      "duration": 15,
+      "status": "Completed",
+      "toothNumber": null,
+      "notes": "Patient anxious – take it slowly",
+      "createdBy": "u2",
+      "createdAt": "2026-09-29T10:00:00Z"
+    },
+    {
+      "id": "a1",
+      "patientId": "p14",
+      "doctorId": "u1",
+      "treatmentId": "t7",
+      "date": "2026-10-01",
+      "startTime": "14:30",
+      "endTime": "15:00",
+      "duration": 30,
+      "status": "Completed",
+      "toothNumber": null,
+      "notes": "Sensitivity on upper left molar",
+      "createdBy": "u2",
+      "createdAt": "2026-09-18T10:00:00Z"
+    },
+    {
+      "id": "a15",
+      "patientId": "p2",
+      "doctorId": "u1",
+      "treatmentId": "t5",
+      "date": "2026-10-02",
+      "startTime": "14:45",
+      "endTime": "16:15",
+      "duration": 90,
+      "status": "Cancelled",
+      "toothNumber": 46,
+      "notes": "",
+      "createdBy": "u2",
+      "createdAt": "2026-09-27T10:00:00Z"
+    },
+    {
+      "id": "a7",
+      "patientId": "p6",
+      "doctorId": "u1",
+      "treatmentId": "t9",
+      "date": "2026-10-05",
+      "startTime": "10:15",
+      "endTime": "11:15",
+      "duration": 60,
+      "status": "Completed",
+      "toothNumber": 46,
+      "notes": "",
+      "createdBy": "u2",
+      "createdAt": "2026-09-30T10:00:00Z"
+    },
+    {
+      "id": "a30",
+      "patientId": "p2",
+      "doctorId": "u3",
+      "treatmentId": "t9",
+      "date": "2026-10-05",
+      "startTime": "16:15",
+      "endTime": "17:15",
+      "duration": 60,
+      "status": "Completed",
+      "toothNumber": 11,
+      "notes": "Sensitivity on upper left molar",
+      "createdBy": "u2",
+      "createdAt": "2026-09-26T10:00:00Z"
+    },
+    {
+      "id": "a34",
+      "patientId": "p19",
+      "doctorId": "u1",
+      "treatmentId": "t7",
+      "date": "2026-10-06",
+      "startTime": "09:15",
+      "endTime": "09:45",
+      "duration": 30,
+      "status": "Completed",
+      "toothNumber": null,
+      "notes": "",
+      "createdBy": "u2",
+      "createdAt": "2026-09-29T10:00:00Z"
+    },
+    {
+      "id": "a6",
+      "patientId": "p11",
+      "doctorId": "u1",
+      "treatmentId": "t10",
+      "date": "2026-10-06",
+      "startTime": "09:45",
+      "endTime": "10:00",
+      "duration": 15,
+      "status": "Completed",
+      "toothNumber": null,
+      "notes": "Bring previous X-rays",
+      "createdBy": "u2",
+      "createdAt": "2026-09-27T10:00:00Z"
+    },
+    {
+      "id": "a8",
+      "patientId": "p20",
+      "doctorId": "u3",
+      "treatmentId": "t10",
+      "date": "2026-10-07",
+      "startTime": "09:30",
+      "endTime": "09:45",
+      "duration": 15,
+      "status": "Completed",
+      "toothNumber": null,
+      "notes": "Follow-up from last session",
+      "createdBy": "u2",
+      "createdAt": "2026-09-26T10:00:00Z"
+    },
+    {
+      "id": "a3",
+      "patientId": "p2",
+      "doctorId": "u1",
+      "treatmentId": "t8",
+      "date": "2026-10-07",
+      "startTime": "10:30",
+      "endTime": "12:30",
+      "duration": 120,
+      "status": "Completed",
+      "toothNumber": null,
+      "notes": "Bring previous X-rays",
+      "createdBy": "u2",
+      "createdAt": "2026-10-04T10:00:00Z"
+    },
+    {
+      "id": "a32",
+      "patientId": "p18",
+      "doctorId": "u1",
+      "treatmentId": "t6",
+      "date": "2026-10-07",
+      "startTime": "14:00",
+      "endTime": "15:00",
+      "duration": 60,
+      "status": "Completed",
+      "toothNumber": null,
+      "notes": "",
+      "createdBy": "u2",
+      "createdAt": "2026-10-02T10:00:00Z"
+    },
+    {
+      "id": "a18",
+      "patientId": "p2",
+      "doctorId": "u1",
+      "treatmentId": "t2",
+      "date": "2026-10-08",
+      "startTime": "15:00",
+      "endTime": "15:45",
+      "duration": 45,
+      "status": "Cancelled",
+      "toothNumber": null,
+      "notes": "",
+      "createdBy": "u2",
+      "createdAt": "2026-10-03T10:00:00Z"
+    },
+    {
+      "id": "a11",
+      "patientId": "p9",
+      "doctorId": "u3",
+      "treatmentId": "t2",
+      "date": "2026-10-09",
+      "startTime": "11:00",
+      "endTime": "11:45",
+      "duration": 45,
+      "status": "Completed",
+      "toothNumber": null,
+      "notes": "",
+      "createdBy": "u2",
+      "createdAt": "2026-09-26T10:00:00Z"
+    },
+    {
+      "id": "a12",
+      "patientId": "p7",
+      "doctorId": "u3",
+      "treatmentId": "t4",
+      "date": "2026-10-09",
+      "startTime": "14:15",
+      "endTime": "14:45",
+      "duration": 30,
+      "status": "Completed",
+      "toothNumber": 18,
+      "notes": "Sensitivity on upper left molar",
+      "createdBy": "u2",
+      "createdAt": "2026-09-29T10:00:00Z"
+    },
+    {
+      "id": "a20",
+      "patientId": "p18",
+      "doctorId": "u3",
+      "treatmentId": "t9",
+      "date": "2026-10-13",
+      "startTime": "15:15",
+      "endTime": "16:15",
+      "duration": 60,
+      "status": "Completed",
+      "toothNumber": 11,
+      "notes": "",
+      "createdBy": "u2",
+      "createdAt": "2026-10-07T10:00:00Z"
+    },
+    {
+      "id": "a10",
+      "patientId": "p18",
+      "doctorId": "u1",
+      "treatmentId": "t3",
+      "date": "2026-10-13",
+      "startTime": "16:00",
+      "endTime": "16:45",
+      "duration": 45,
+      "status": "Completed",
+      "toothNumber": 46,
+      "notes": "Bring previous X-rays",
+      "createdBy": "u2",
+      "createdAt": "2026-10-03T10:00:00Z"
+    },
+    {
+      "id": "a9",
+      "patientId": "p15",
+      "doctorId": "u1",
+      "treatmentId": "t2",
+      "date": "2026-10-16",
+      "startTime": "09:00",
+      "endTime": "09:45",
+      "duration": 45,
+      "status": "Confirmed",
+      "toothNumber": null,
+      "notes": "Bring previous X-rays",
+      "createdBy": "u2",
+      "createdAt": "2026-10-13T10:00:00Z"
+    },
+    {
+      "id": "a29",
+      "patientId": "p13",
+      "doctorId": "u1",
+      "treatmentId": "t10",
+      "date": "2026-10-16",
+      "startTime": "12:00",
+      "endTime": "12:15",
+      "duration": 15,
+      "status": "Scheduled",
+      "toothNumber": null,
+      "notes": "",
+      "createdBy": "u2",
+      "createdAt": "2026-10-12T10:00:00Z"
+    },
+    {
+      "id": "a37",
+      "patientId": "p9",
+      "doctorId": "u1",
+      "treatmentId": "t6",
+      "date": "2026-10-16",
+      "startTime": "15:00",
+      "endTime": "16:00",
+      "duration": 60,
+      "status": "Confirmed",
+      "toothNumber": null,
+      "notes": "Sensitivity on upper left molar",
+      "createdBy": "u2",
+      "createdAt": "2026-10-08T10:00:00Z"
+    },
+    {
+      "id": "a35",
+      "patientId": "p16",
+      "doctorId": "u1",
+      "treatmentId": "t5",
+      "date": "2026-10-19",
+      "startTime": "15:45",
+      "endTime": "17:15",
+      "duration": 90,
+      "status": "Scheduled",
+      "toothNumber": 46,
+      "notes": "First visit",
+      "createdBy": "u2",
+      "createdAt": "2026-10-07T10:00:00Z"
+    },
+    {
+      "id": "a36",
+      "patientId": "p14",
+      "doctorId": "u3",
+      "treatmentId": "t1",
+      "date": "2026-10-22",
+      "startTime": "10:15",
+      "endTime": "10:45",
+      "duration": 30,
+      "status": "Scheduled",
+      "toothNumber": null,
+      "notes": "Patient anxious – take it slowly",
+      "createdBy": "u2",
+      "createdAt": "2026-10-18T10:00:00Z"
+    },
+    {
+      "id": "a25",
+      "patientId": "p18",
+      "doctorId": "u3",
+      "treatmentId": "t5",
+      "date": "2026-10-23",
+      "startTime": "15:15",
+      "endTime": "16:45",
+      "duration": 90,
+      "status": "Confirmed",
+      "toothNumber": 18,
+      "notes": "First visit",
+      "createdBy": "u2",
+      "createdAt": "2026-10-18T10:00:00Z"
+    },
+    {
+      "id": "a2",
+      "patientId": "p11",
+      "doctorId": "u1",
+      "treatmentId": "t1",
+      "date": "2026-10-26",
+      "startTime": "15:15",
+      "endTime": "15:45",
+      "duration": 30,
+      "status": "Confirmed",
+      "toothNumber": null,
+      "notes": "",
+      "createdBy": "u2",
+      "createdAt": "2026-10-21T10:00:00Z"
+    },
+    {
+      "id": "a23",
+      "patientId": "p14",
+      "doctorId": "u3",
+      "treatmentId": "t4",
+      "date": "2026-10-27",
+      "startTime": "14:45",
+      "endTime": "15:15",
+      "duration": 30,
+      "status": "Scheduled",
+      "toothNumber": 21,
+      "notes": "Follow-up from last session",
+      "createdBy": "u2",
+      "createdAt": "2026-10-16T10:00:00Z"
+    },
+    {
+      "id": "a16",
+      "patientId": "p20",
+      "doctorId": "u1",
+      "treatmentId": "t6",
+      "date": "2026-10-27",
+      "startTime": "15:30",
+      "endTime": "16:30",
+      "duration": 60,
+      "status": "Confirmed",
+      "toothNumber": null,
+      "notes": "",
+      "createdBy": "u2",
+      "createdAt": "2026-10-23T10:00:00Z"
+    },
+    {
+      "id": "a24",
+      "patientId": "p7",
+      "doctorId": "u1",
+      "treatmentId": "t9",
+      "date": "2026-10-28",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "duration": 60,
+      "status": "Scheduled",
+      "toothNumber": 46,
+      "notes": "Patient anxious – take it slowly",
+      "createdBy": "u2",
+      "createdAt": "2026-10-15T10:00:00Z"
+    },
+    {
+      "id": "a33",
+      "patientId": "p14",
+      "doctorId": "u1",
+      "treatmentId": "t2",
+      "date": "2026-10-28",
+      "startTime": "15:30",
+      "endTime": "16:15",
+      "duration": 45,
+      "status": "Scheduled",
+      "toothNumber": null,
+      "notes": "Patient anxious – take it slowly",
+      "createdBy": "u2",
+      "createdAt": "2026-10-20T10:00:00Z"
+    },
+    {
+      "id": "a38",
+      "patientId": "p8",
+      "doctorId": "u3",
+      "treatmentId": "t1",
+      "date": "2026-10-29",
+      "startTime": "14:30",
+      "endTime": "15:00",
+      "duration": 30,
+      "status": "Confirmed",
+      "toothNumber": null,
+      "notes": "Sensitivity on upper left molar",
+      "createdBy": "u2",
+      "createdAt": "2026-10-17T10:00:00Z"
+    },
+    {
+      "id": "a40",
+      "patientId": "p6",
+      "doctorId": "u1",
+      "treatmentId": "t3",
+      "date": "2026-10-30",
+      "startTime": "10:45",
+      "endTime": "11:30",
+      "duration": 45,
+      "status": "Confirmed",
+      "toothNumber": 38,
+      "notes": "",
+      "createdBy": "u2",
+      "createdAt": "2026-10-28T10:00:00Z"
+    },
+    {
+      "id": "a39",
+      "patientId": "p1",
+      "doctorId": "u1",
+      "treatmentId": "t4",
+      "date": "2026-10-30",
+      "startTime": "12:00",
+      "endTime": "12:30",
+      "duration": 30,
+      "status": "Confirmed",
+      "toothNumber": 14,
+      "notes": "",
+      "createdBy": "u2",
+      "createdAt": "2026-10-21T10:00:00Z"
+    },
+    {
+      "id": "a31",
+      "patientId": "p18",
+      "doctorId": "u1",
+      "treatmentId": "t10",
+      "date": "2026-10-30",
+      "startTime": "15:45",
+      "endTime": "16:00",
+      "duration": 15,
+      "status": "Scheduled",
+      "toothNumber": null,
+      "notes": "",
+      "createdBy": "u2",
+      "createdAt": "2026-10-17T10:00:00Z"
+    },
+    {
+      "id": "a28",
+      "patientId": "p2",
+      "doctorId": "u1",
+      "treatmentId": "t3",
+      "date": "2026-11-02",
+      "startTime": "09:15",
+      "endTime": "10:00",
+      "duration": 45,
+      "status": "Scheduled",
+      "toothNumber": 38,
+      "notes": "Patient anxious – take it slowly",
+      "createdBy": "u2",
+      "createdAt": "2026-10-19T10:00:00Z"
+    },
+    {
+      "id": "a27",
+      "patientId": "p10",
+      "doctorId": "u3",
+      "treatmentId": "t3",
+      "date": "2026-11-02",
+      "startTime": "10:15",
+      "endTime": "11:00",
+      "duration": 45,
+      "status": "Scheduled",
+      "toothNumber": 38,
+      "notes": "Follow-up from last session",
+      "createdBy": "u2",
+      "createdAt": "2026-10-26T10:00:00Z"
+    },
+    {
+      "id": "a26",
+      "patientId": "p15",
+      "doctorId": "u3",
+      "treatmentId": "t10",
+      "date": "2026-11-02",
+      "startTime": "14:00",
+      "endTime": "14:15",
+      "duration": 15,
+      "status": "Scheduled",
+      "toothNumber": null,
+      "notes": "Follow-up from last session",
+      "createdBy": "u2",
+      "createdAt": "2026-10-28T10:00:00Z"
+    },
+    {
+      "id": "a5",
+      "patientId": "p18",
+      "doctorId": "u1",
+      "treatmentId": "t5",
+      "date": "2026-11-02",
+      "startTime": "15:45",
+      "endTime": "17:15",
+      "duration": 90,
+      "status": "Confirmed",
+      "toothNumber": 14,
+      "notes": "Patient anxious – take it slowly",
+      "createdBy": "u2",
+      "createdAt": "2026-10-28T10:00:00Z"
+    },
+    {
+      "id": "a19",
+      "patientId": "p7",
+      "doctorId": "u1",
+      "treatmentId": "t4",
+      "date": "2026-11-03",
+      "startTime": "09:15",
+      "endTime": "09:45",
+      "duration": 30,
+      "status": "Scheduled",
+      "toothNumber": 11,
+      "notes": "First visit",
+      "createdBy": "u2",
+      "createdAt": "2026-10-20T10:00:00Z"
+    },
+    {
+      "id": "a4",
+      "patientId": "p16",
+      "doctorId": "u1",
+      "treatmentId": "t3",
+      "date": "2026-11-04",
+      "startTime": "15:30",
+      "endTime": "16:15",
+      "duration": 45,
+      "status": "Scheduled",
+      "toothNumber": 24,
+      "notes": "Sensitivity on upper left molar",
+      "createdBy": "u2",
+      "createdAt": "2026-11-02T10:00:00Z"
+    },
+    {
+      "id": "a17",
+      "patientId": "p11",
+      "doctorId": "u1",
+      "treatmentId": "t1",
+      "date": "2026-11-05",
+      "startTime": "11:45",
+      "endTime": "12:15",
+      "duration": 30,
+      "status": "Confirmed",
+      "toothNumber": null,
+      "notes": "Patient anxious – take it slowly",
+      "createdBy": "u2",
+      "createdAt": "2026-10-22T10:00:00Z"
+    }
+  ],
+  "invoices": [
+    {
+      "id": "inv1",
+      "number": "INV-2026-0001",
+      "appointmentId": "a1",
+      "patientId": "p14",
+      "date": "2026-10-01",
+      "items": [
+        {
+          "description": "Orthodontic Adjustment",
+          "quantity": 1,
+          "unitPrice": 400
+        }
+      ],
+      "subtotal": 400,
+      "discount": 0,
+      "total": 400,
+      "amountPaid": 400,
+      "paymentStatus": "Paid",
+      "paymentMethod": "Bank transfer"
+    },
+    {
+      "id": "inv2",
+      "number": "INV-2026-0002",
+      "appointmentId": "a3",
+      "patientId": "p2",
+      "date": "2026-10-07",
+      "items": [
+        {
+          "description": "Dental Implant",
+          "quantity": 1,
+          "unitPrice": 6000
+        }
+      ],
+      "subtotal": 6000,
+      "discount": 0,
+      "total": 6000,
+      "amountPaid": 0,
+      "paymentStatus": "Unpaid",
+      "paymentMethod": null
+    },
+    {
+      "id": "inv3",
+      "number": "INV-2026-0003",
+      "appointmentId": "a6",
+      "patientId": "p11",
+      "date": "2026-10-06",
+      "items": [
+        {
+          "description": "X-Ray / Panoramic",
+          "quantity": 1,
+          "unitPrice": 200
+        }
+      ],
+      "subtotal": 200,
+      "discount": 0,
+      "total": 200,
+      "amountPaid": 200,
+      "paymentStatus": "Paid",
+      "paymentMethod": "Bank transfer"
+    },
+    {
+      "id": "inv4",
+      "number": "INV-2026-0004",
+      "appointmentId": "a7",
+      "patientId": "p6",
+      "date": "2026-10-05",
+      "items": [
+        {
+          "description": "Crown Placement",
+          "quantity": 1,
+          "unitPrice": 2500
+        }
+      ],
+      "subtotal": 2500,
+      "discount": 0,
+      "total": 2500,
+      "amountPaid": 2500,
+      "paymentStatus": "Paid",
+      "paymentMethod": "Bank transfer"
+    },
+    {
+      "id": "inv5",
+      "number": "INV-2026-0005",
+      "appointmentId": "a8",
+      "patientId": "p20",
+      "date": "2026-10-07",
+      "items": [
+        {
+          "description": "X-Ray / Panoramic",
+          "quantity": 1,
+          "unitPrice": 200
+        }
+      ],
+      "subtotal": 200,
+      "discount": 0,
+      "total": 200,
+      "amountPaid": 200,
+      "paymentStatus": "Paid",
+      "paymentMethod": "Card"
+    },
+    {
+      "id": "inv6",
+      "number": "INV-2026-0006",
+      "appointmentId": "a10",
+      "patientId": "p18",
+      "date": "2026-10-13",
+      "items": [
+        {
+          "description": "Dental Filling",
+          "quantity": 1,
+          "unitPrice": 600
+        }
+      ],
+      "subtotal": 600,
+      "discount": 0,
+      "total": 600,
+      "amountPaid": 600,
+      "paymentStatus": "Paid",
+      "paymentMethod": "Bank transfer"
+    },
+    {
+      "id": "inv7",
+      "number": "INV-2026-0007",
+      "appointmentId": "a11",
+      "patientId": "p9",
+      "date": "2026-10-09",
+      "items": [
+        {
+          "description": "Teeth Cleaning (Scaling)",
+          "quantity": 1,
+          "unitPrice": 500
+        }
+      ],
+      "subtotal": 500,
+      "discount": 0,
+      "total": 500,
+      "amountPaid": 500,
+      "paymentStatus": "Paid",
+      "paymentMethod": "Card"
+    },
+    {
+      "id": "inv8",
+      "number": "INV-2026-0008",
+      "appointmentId": "a12",
+      "patientId": "p7",
+      "date": "2026-10-09",
+      "items": [
+        {
+          "description": "Tooth Extraction",
+          "quantity": 1,
+          "unitPrice": 700
+        }
+      ],
+      "subtotal": 700,
+      "discount": 0,
+      "total": 700,
+      "amountPaid": 700,
+      "paymentStatus": "Paid",
+      "paymentMethod": "Cash"
+    },
+    {
+      "id": "inv9",
+      "number": "INV-2026-0009",
+      "appointmentId": "a13",
+      "patientId": "p9",
+      "date": "2026-09-29",
+      "items": [
+        {
+          "description": "Teeth Whitening",
+          "quantity": 1,
+          "unitPrice": 1500
+        }
+      ],
+      "subtotal": 1500,
+      "discount": 0,
+      "total": 1500,
+      "amountPaid": 750,
+      "paymentStatus": "Partial",
+      "paymentMethod": "Bank transfer"
+    },
+    {
+      "id": "inv10",
+      "number": "INV-2026-0010",
+      "appointmentId": "a14",
+      "patientId": "p18",
+      "date": "2026-09-28",
+      "items": [
+        {
+          "description": "Teeth Cleaning (Scaling)",
+          "quantity": 1,
+          "unitPrice": 500
+        }
+      ],
+      "subtotal": 500,
+      "discount": 0,
+      "total": 500,
+      "amountPaid": 500,
+      "paymentStatus": "Paid",
+      "paymentMethod": "Card"
+    },
+    {
+      "id": "inv11",
+      "number": "INV-2026-0011",
+      "appointmentId": "a20",
+      "patientId": "p18",
+      "date": "2026-10-13",
+      "items": [
+        {
+          "description": "Crown Placement",
+          "quantity": 1,
+          "unitPrice": 2500
+        }
+      ],
+      "subtotal": 2500,
+      "discount": 0,
+      "total": 2500,
+      "amountPaid": 2500,
+      "paymentStatus": "Paid",
+      "paymentMethod": "Card"
+    },
+    {
+      "id": "inv12",
+      "number": "INV-2026-0012",
+      "appointmentId": "a21",
+      "patientId": "p12",
+      "date": "2026-09-29",
+      "items": [
+        {
+          "description": "X-Ray / Panoramic",
+          "quantity": 1,
+          "unitPrice": 200
+        }
+      ],
+      "subtotal": 200,
+      "discount": 0,
+      "total": 200,
+      "amountPaid": 200,
+      "paymentStatus": "Paid",
+      "paymentMethod": "Bank transfer"
+    },
+    {
+      "id": "inv13",
+      "number": "INV-2026-0013",
+      "appointmentId": "a22",
+      "patientId": "p9",
+      "date": "2026-10-01",
+      "items": [
+        {
+          "description": "X-Ray / Panoramic",
+          "quantity": 1,
+          "unitPrice": 200
+        }
+      ],
+      "subtotal": 200,
+      "discount": 0,
+      "total": 200,
+      "amountPaid": 200,
+      "paymentStatus": "Paid",
+      "paymentMethod": "Bank transfer"
+    },
+    {
+      "id": "inv14",
+      "number": "INV-2026-0014",
+      "appointmentId": "a30",
+      "patientId": "p2",
+      "date": "2026-10-05",
+      "items": [
+        {
+          "description": "Crown Placement",
+          "quantity": 1,
+          "unitPrice": 2500
+        }
+      ],
+      "subtotal": 2500,
+      "discount": 0,
+      "total": 2500,
+      "amountPaid": 2500,
+      "paymentStatus": "Paid",
+      "paymentMethod": "Card"
+    },
+    {
+      "id": "inv15",
+      "number": "INV-2026-0015",
+      "appointmentId": "a32",
+      "patientId": "p18",
+      "date": "2026-10-07",
+      "items": [
+        {
+          "description": "Teeth Whitening",
+          "quantity": 1,
+          "unitPrice": 1500
+        }
+      ],
+      "subtotal": 1500,
+      "discount": 0,
+      "total": 1500,
+      "amountPaid": 1500,
+      "paymentStatus": "Paid",
+      "paymentMethod": "Cash"
+    },
+    {
+      "id": "inv16",
+      "number": "INV-2026-0016",
+      "appointmentId": "a34",
+      "patientId": "p19",
+      "date": "2026-10-06",
+      "items": [
+        {
+          "description": "Orthodontic Adjustment",
+          "quantity": 1,
+          "unitPrice": 400
+        }
+      ],
+      "subtotal": 400,
+      "discount": 0,
+      "total": 400,
+      "amountPaid": 400,
+      "paymentStatus": "Paid",
+      "paymentMethod": "Card"
+    }
+  ],
+  "reminders": [
+    {
+      "id": "r1",
+      "appointmentId": "a2",
+      "patientId": "p11",
+      "channel": "SMS",
+      "scheduledFor": "2026-10-25T09:00:00Z",
+      "sent": false,
+      "message": "Reminder: you have an appointment at DentCare on 2026-10-26 at 15:15."
+    },
+    {
+      "id": "r2",
+      "appointmentId": "a4",
+      "patientId": "p16",
+      "channel": "SMS",
+      "scheduledFor": "2026-11-03T09:00:00Z",
+      "sent": false,
+      "message": "Reminder: you have an appointment at DentCare on 2026-11-04 at 15:30."
+    },
+    {
+      "id": "r3",
+      "appointmentId": "a5",
+      "patientId": "p18",
+      "channel": "Email",
+      "scheduledFor": "2026-11-01T09:00:00Z",
+      "sent": false,
+      "message": "Reminder: you have an appointment at DentCare on 2026-11-02 at 15:45."
+    },
+    {
+      "id": "r4",
+      "appointmentId": "a9",
+      "patientId": "p15",
+      "channel": "SMS",
+      "scheduledFor": "2026-10-15T09:00:00Z",
+      "sent": false,
+      "message": "Reminder: you have an appointment at DentCare on 2026-10-16 at 09:00."
+    },
+    {
+      "id": "r5",
+      "appointmentId": "a16",
+      "patientId": "p20",
+      "channel": "SMS",
+      "scheduledFor": "2026-10-26T09:00:00Z",
+      "sent": false,
+      "message": "Reminder: you have an appointment at DentCare on 2026-10-27 at 15:30."
+    },
+    {
+      "id": "r6",
+      "appointmentId": "a17",
+      "patientId": "p11",
+      "channel": "SMS",
+      "scheduledFor": "2026-11-04T09:00:00Z",
+      "sent": false,
+      "message": "Reminder: you have an appointment at DentCare on 2026-11-05 at 11:45."
+    },
+    {
+      "id": "r7",
+      "appointmentId": "a19",
+      "patientId": "p7",
+      "channel": "Email",
+      "scheduledFor": "2026-11-02T09:00:00Z",
+      "sent": false,
+      "message": "Reminder: you have an appointment at DentCare on 2026-11-03 at 09:15."
+    },
+    {
+      "id": "r8",
+      "appointmentId": "a23",
+      "patientId": "p14",
+      "channel": "Email",
+      "scheduledFor": "2026-10-26T09:00:00Z",
+      "sent": false,
+      "message": "Reminder: you have an appointment at DentCare on 2026-10-27 at 14:45."
+    },
+    {
+      "id": "r9",
+      "appointmentId": "a24",
+      "patientId": "p7",
+      "channel": "SMS",
+      "scheduledFor": "2026-10-27T09:00:00Z",
+      "sent": false,
+      "message": "Reminder: you have an appointment at DentCare on 2026-10-28 at 11:00."
+    },
+    {
+      "id": "r10",
+      "appointmentId": "a25",
+      "patientId": "p18",
+      "channel": "Email",
+      "scheduledFor": "2026-10-22T09:00:00Z",
+      "sent": false,
+      "message": "Reminder: you have an appointment at DentCare on 2026-10-23 at 15:15."
+    },
+    {
+      "id": "r11",
+      "appointmentId": "a26",
+      "patientId": "p15",
+      "channel": "Email",
+      "scheduledFor": "2026-11-01T09:00:00Z",
+      "sent": false,
+      "message": "Reminder: you have an appointment at DentCare on 2026-11-02 at 14:00."
+    },
+    {
+      "id": "r12",
+      "appointmentId": "a27",
+      "patientId": "p10",
+      "channel": "SMS",
+      "scheduledFor": "2026-11-01T09:00:00Z",
+      "sent": false,
+      "message": "Reminder: you have an appointment at DentCare on 2026-11-02 at 10:15."
+    },
+    {
+      "id": "r13",
+      "appointmentId": "a28",
+      "patientId": "p2",
+      "channel": "SMS",
+      "scheduledFor": "2026-11-01T09:00:00Z",
+      "sent": false,
+      "message": "Reminder: you have an appointment at DentCare on 2026-11-02 at 09:15."
+    },
+    {
+      "id": "r14",
+      "appointmentId": "a29",
+      "patientId": "p13",
+      "channel": "SMS",
+      "scheduledFor": "2026-10-15T09:00:00Z",
+      "sent": false,
+      "message": "Reminder: you have an appointment at DentCare on 2026-10-16 at 12:00."
+    },
+    {
+      "id": "r15",
+      "appointmentId": "a31",
+      "patientId": "p18",
+      "channel": "Email",
+      "scheduledFor": "2026-10-29T09:00:00Z",
+      "sent": false,
+      "message": "Reminder: you have an appointment at DentCare on 2026-10-30 at 15:45."
+    },
+    {
+      "id": "r16",
+      "appointmentId": "a33",
+      "patientId": "p14",
+      "channel": "SMS",
+      "scheduledFor": "2026-10-27T09:00:00Z",
+      "sent": false,
+      "message": "Reminder: you have an appointment at DentCare on 2026-10-28 at 15:30."
+    },
+    {
+      "id": "r17",
+      "appointmentId": "a35",
+      "patientId": "p16",
+      "channel": "Email",
+      "scheduledFor": "2026-10-18T09:00:00Z",
+      "sent": false,
+      "message": "Reminder: you have an appointment at DentCare on 2026-10-19 at 15:45."
+    },
+    {
+      "id": "r18",
+      "appointmentId": "a36",
+      "patientId": "p14",
+      "channel": "SMS",
+      "scheduledFor": "2026-10-21T09:00:00Z",
+      "sent": false,
+      "message": "Reminder: you have an appointment at DentCare on 2026-10-22 at 10:15."
+    },
+    {
+      "id": "r19",
+      "appointmentId": "a37",
+      "patientId": "p9",
+      "channel": "Email",
+      "scheduledFor": "2026-10-15T09:00:00Z",
+      "sent": false,
+      "message": "Reminder: you have an appointment at DentCare on 2026-10-16 at 15:00."
+    },
+    {
+      "id": "r20",
+      "appointmentId": "a38",
+      "patientId": "p8",
+      "channel": "SMS",
+      "scheduledFor": "2026-10-28T09:00:00Z",
+      "sent": false,
+      "message": "Reminder: you have an appointment at DentCare on 2026-10-29 at 14:30."
+    },
+    {
+      "id": "r21",
+      "appointmentId": "a39",
+      "patientId": "p1",
+      "channel": "SMS",
+      "scheduledFor": "2026-10-29T09:00:00Z",
+      "sent": false,
+      "message": "Reminder: you have an appointment at DentCare on 2026-10-30 at 12:00."
+    },
+    {
+      "id": "r22",
+      "appointmentId": "a40",
+      "patientId": "p6",
+      "channel": "Email",
+      "scheduledFor": "2026-10-29T09:00:00Z",
+      "sent": false,
+      "message": "Reminder: you have an appointment at DentCare on 2026-10-30 at 10:45."
+    }
+  ],
+  "bookingRequests": [
+    {
+      "id": "br1",
+      "name": "Rania Alami",
+      "phone": "+212 661 234 567",
+      "email": "rania.alami@example.com",
+      "preferredDate": "2026-10-20",
+      "preferredTime": "10:00",
+      "reason": "Tooth pain on lower right side",
+      "status": "Pending",
+      "createdAt": "2026-10-13T18:20:00Z"
+    },
+    {
+      "id": "br2",
+      "name": "Tariq Mahjoub",
+      "phone": "+212 662 345 678",
+      "email": null,
+      "preferredDate": "2026-10-22",
+      "preferredTime": "15:30",
+      "reason": "Teeth whitening",
+      "status": "Pending",
+      "createdAt": "2026-10-14T08:05:00Z"
+    },
+    {
+      "id": "br3",
+      "name": "Ghita Berrada",
+      "phone": "+212 663 456 789",
+      "email": "ghita.b@example.com",
+      "preferredDate": "2026-10-17",
+      "preferredTime": "09:30",
+      "reason": "Routine check-up",
+      "status": "Approved",
+      "createdAt": "2026-10-12T11:40:00Z"
+    }
+  ]
+}
